@@ -1,0 +1,84 @@
+/*------Base Styles------*/
+
+.robyn-advice {
+    width: 1200px;
+    background-color: #c7c2bc;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.advice {
+    padding-bottom: 25px;
+}
+
+/*------Header Styles------*/
+
+header {
+    padding: 20px;
+    border-bottom: #730504 dotted 4px;
+}
+
+header a {
+    font-family: 'Open Sans', sans-serif;
+    color: #810408;
+    text-decoration: none;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: #730504;
+    text-align: center;
+}
+
+/*------Topic Styles------*/
+
+.topics {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: #730504 dotted 3px;
+}
+
+.topics h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 37px;
+    font-weight: bold;
+    color: #d14b30;
+}
+
+.topics p {
+    font-family: 'Open Sans', sans-serif;
+    justify-self: left;
+    line-height: 20px;
+    font-size: 20px;
+    color: #463322;
+}
+
+/*------Footer Styles------*/
+
+footer {
+    padding-top: 20px;
+}
+
+footer p {
+    color: #810408;
+    text-align: center;
+}
