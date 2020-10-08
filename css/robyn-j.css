@@ -18,12 +18,6 @@ header {
     border-bottom: #730504 dotted 4px;
 }
 
-header a {
-    font-family: 'Open Sans', sans-serif;
-    color: #810408;
-    text-decoration: none;
-}
-
 #img-container {
     display: flex;
     justify-content: center;
